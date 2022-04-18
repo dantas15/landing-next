@@ -13,7 +13,7 @@ export const GridTwoColumns = ({
   sectionId = '',
 }) => {
   return (
-    <SectionBackground background={background}>
+    <SectionBackground sectionId={sectionId} background={background}>
       <Styled.Container>
         <Styled.TextContainer>
           <Heading colorDark={!background} as="h2">

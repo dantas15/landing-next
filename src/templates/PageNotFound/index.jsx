@@ -6,7 +6,7 @@ export const PageNotFound = () => {
   return (
     <>
       <Head>
-        <title>Page Not Found | {config}</title>
+        <title>Page Not Found | {config.siteName}</title>
       </Head>
       <GridContent
         title={'404'}
